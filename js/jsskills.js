@@ -61,10 +61,10 @@ var JsSkills = (function(){
 	skill.init = function(){ // initialising
           var block =  build.buildBlockLangage();
               selectDom.$jsskill.appendChild(block);
-              console.log(parseInt(options.number));
-              console.log(options);
-              console.log(frameworkArray);
-              return this;
+              // console.log(parseInt(options.number));
+              // console.log(options);
+              //console.log(frameworkArray);
+              //return this;
 	}
     
 	build.add = function(balise){ // create à new element by add.
