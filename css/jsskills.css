@@ -8,16 +8,18 @@ main{
 .box-jsskills{
     box-sizing: border-box;
     width:640px;
-    padding:5px;
-}
-h4{
-    font-size:1.3em;
-    font-family: "Courier New", Courier, monospace;
+    padding:0px;
 }
 
 .jsskill-block{
     width: auto; height: auto;
-    margin-bottom: auto auto 5px auto;
+    margin: auto auto 2px auto;
+    padding-bottom: 0px;
+}
+.jsskill-block h4{
+    font-size:1.3em;
+    font-family: "Courier New", Courier, monospace;
+    margin:0px auto 6px auto;
 }
 
 .jsskill-field{
