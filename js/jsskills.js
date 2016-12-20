@@ -22,11 +22,11 @@ var JsSkills = (function(){
         };
         
 	
-	var langageArray    = [],
-		frameworkArray  = [],
-		anotherArray    = [],
+	var langageArray    = [], // Array For langage
+		frameworkArray  = [], // Array For framework
+		anotherArray    = [], // For something else.
 		defaulType = [],
-        champs = [];
+        champs = [];  // every field build 
 	
 	skill.set = function(type="another",objects = []){ 
 		 if(Array.isArray(objects)){ 
@@ -58,56 +58,68 @@ var JsSkills = (function(){
            anotherArray.push(anothers[another]);
         }
     }
+
+
 	skill.init = function(){ // initialising
           var block =  build.buildBlockLangage();
               selectDom.$jsskill.appendChild(block);
-              // console.log(parseInt(options.number));
-              // console.log(options);
-              //console.log(frameworkArray);
-              //return this;
+              console.log(block);
+              return this;
 	}
-    
+
 	build.add = function(balise){ // create à new element by add.
 		var div  = document.createElement(balise);
 		    return div;
 	}
-    build.buildBlockLangage = function(){ // Mtheode block
-        var h2 = build.add('h2');
-            h2.innerHTML = "Langage";
+    build.buildBlockLangage = function(){ // Metheode block
+        var h4 = build.add('h4');
+            h4.innerHTML = "Langage";
+
             var block = build.add('div');
             block.setAttribute("class","jsskill-block");
+
            if(langageArray.length !== null){
-               block.appendChild(h2);
-               for(var item in langageArray){ build.field(langageArray[item].name,langageArray[item].level);}
+               block.appendChild(h4);
+               for(var item in langageArray){ 
+                   build.field(langageArray[item].name, langageArray[item].level);
+               }
+
                for(var champ in champs){  block.appendChild(champs[champ]);}
            }
            return block;
     }
-    build.field = function (name, level){ // Methode build the field 
-        var field = build.add('div');
+    build.field = function (name, level){ // Methode build the field  whose take two param name and level
+
+        var field = build.add('div'); // Make div field
 		    field.setAttribute("class","jsskill-field");
+
         var text = build.add('div');
 		    text.setAttribute("class","jsskill-text");
             text.innerHTML = name;
-            field.appendChild(text);
-        var skill = build.add('div');
+            field.appendChild(text); // Add the text in the field
+
+        var skill = build.add('div'); // Make  the skill
 		    skill.setAttribute("class","jsskill-skill");
+        var ul = build.add('ul'); // Make  the skill
+
         var clear = build.add('div');
 		    clear.setAttribute("class","jsskill-clear");
+            
             var l = 1;
             while(l <= parseInt(options.number)){// number
-               var circle = build.add('div');
-			       circle.setAttribute("class", "jsskill-skill-"+options.figure);
-                   skill.appendChild(circle);
-                   l++;
-            } 
+                 var li = build.add('li');
+                     li.setAttribute("class", "jsskill-skill-"+options.figure);
+                     ul.appendChild(li);
+                      l++;
+             } 
             for(var i = 0; i<parseInt(level); i++){
-                skill.children[i].classList.add(options.figure);
+                ul.children[i].classList.add(options.figure);
             }
-            skill.appendChild(clear);
-            field.appendChild(skill);
-            field.appendChild(clear);
-            champs.push(field);
+           skill.appendChild(ul);
+           field.appendChild(skill);
+           field.appendChild(clear);
+           champs.push(field); //Add in array 
+           
     }
 	return skill;
 })();
