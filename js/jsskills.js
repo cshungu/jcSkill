@@ -106,7 +106,7 @@ var JsSkills = (function(){
 		    clear.setAttribute("class","jsskill-clear");
             
             var l = 1;
-            while(l <= parseInt(options.number)){// number
+            while(l<= parseInt(options.number)){// number
                  var li = build.add('li');
                      li.setAttribute("class", "jsskill-skill-"+options.figure);
                      ul.appendChild(li);
@@ -118,9 +118,9 @@ var JsSkills = (function(){
            skill.appendChild(ul);
            field.appendChild(skill);
            field.appendChild(clear);
-           champs.push(field); //Add in array 
+           champs.push(field); //Add in array
            
     }
 	return skill;
 })();
-if(window.JsSkills){window.sk = JsSkills;}
+if(window.JsSkills){window.skill = JsSkills;}

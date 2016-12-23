@@ -1,16 +1,3 @@
-main{
-    width: 80%;
-    height: auto;
-    margin:auto;
-    font-family: "Bell MT" serif;
-}
-
-.box-jsskills{
-    box-sizing: border-box;
-    width:640px;
-    padding:0px;
-}
-
 .jsskill-block{
     width: auto; height: auto;
     margin: auto auto 2px auto;
