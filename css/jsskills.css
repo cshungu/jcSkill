@@ -29,24 +29,19 @@
     margin-top: 0; margin-bottom: 0;
     padding-left: 0px;
 }
+.jsskill-skill-circle,.jsskill-skill-square{
+     width:20px; height:20px;
+     display: inline-block;
+     border: 1px solid #152739;
+     background: snow; text-align: center;
+     font-family: "Courier New", Courier, monospace;
+     margin-right:2px;
+}
 .jsskill-skill-circle{
-    width:20px; height:20px;
-    display: inline-block;
-    border: 1px solid #152739;
     border-radius:20px;
     background: snow; text-align: center;
     margin-right:2px;
-    font-family: "Courier New", Courier, monospace;
-}
-.jsskill-skill-square{
-    width:20px; height:20px;
-    display: inline-block;
-    border: 1px solid #152739;
-    background: snow; text-align: center;
-    margin-right:2px;
-    font-family: "Courier New", Courier, monospace;
 }
 .circle{ background: #152739;}
 .square{background: #152739;}
-
 .jsskill-clear{ clear: both;}
