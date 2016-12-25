@@ -42,6 +42,24 @@
     background: snow; text-align: center;
     margin-right:2px;
 }
-.circle{ background: #152739;}
+.circle, .square{ 
+    background: #152739;
+    -webkit-animation-name:boxmove; 
+            animation-name:boxmove;
+    -webkit-animation-duration: 6s; 
+            animation-duration: 6s;
+}
 .square{background: #152739;}
 .jsskill-clear{ clear: both;}
+
+/**
+ * Parts of annimation
+ */
+ @-webkit-keyframes boxmove{
+    from {background-color: #152739;}
+    to {background-color: #608FA2;}
+ }
+ @keyframes boxmove {
+    from {background-color: #152739;}
+    to {background-color: #608FA2;}
+ }
