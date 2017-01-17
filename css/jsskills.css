@@ -46,9 +46,14 @@
     background: #152739;
     -webkit-animation-name:boxmove; 
             animation-name:boxmove;
-    -webkit-animation-duration: 6s; 
-            animation-duration: 6s;
+    -webkit-animation-duration: 3s; 
+            animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+     -webkit-animation-iteration-count:20;
+             animation-iteration-count:20;
 }
+
 .square{background: #152739;}
 .jsskill-clear{ clear: both;}
 
