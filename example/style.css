@@ -11,9 +11,6 @@ main{
     box-sizing: border-box;
     width:460px;
     padding:0px;
-}
-
-.box-jsskills{
     margin-top:20px;
     min-width: 200px;
     max-width: 600px;
