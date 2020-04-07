@@ -1,15 +1,15 @@
 
 # Module Jsskill ( create in javascript natif) version 1
 
-How you can user this module
+Comment utiliser ce module
 
 ---
 
-1. First of all, you should declare in your  page HTML the block
-   like this:
+1.Tout d'abord, vous devez déclarer dans votre page HTML le bloc
+  comme ça:
    `<div id="jsskill"></div>`
-2. Secondly, you can put your code in javascript.
-   Look the code :
+2. Deuxièmement, vous pouvez mettre votre code en javascript.
+   Regardez le code :
 
 ``` script
 (function(){
@@ -30,14 +30,13 @@ Utilisation du Module Jc
 
 ---
 >Les fonctions utilitaire du module.
-| Function                    | Description                  |
-| --------------------------- | ---------------------------- |
-| Jc.param(<Element option>)  | Fonction de configurations   |
-| Jc.slide()                  | ?                            |
-| Jc.show()                   | ?                            |
-| Jc.progress()               | ?                            |
-| Jc.animate()                | ?                            |
-| Jc.addBloc()                | ?                            |
+| Function                     | Description                    |
+| ---------------------------: | :---------------------------- :|
+| Jc.param(<Element option>)   | Fonction de configurations     |
+| Jc.slide()                   | Fonction slide                 |
+| Jc.show()                    | Fonction show                  |
+| Jc.progress()                | Fonction progress              |
+| Jc.animate()                 | Fonction animate               |
+| Jc.addBloc()                 | Fonction addBloc               |
 
-Linked logo: [![alt text](/favicon.ico)]
-(http://keretben.com/jsskill "keretben")
+Linked logo: (http://keretben.com/jsskill "keretben")
