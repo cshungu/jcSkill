@@ -4,6 +4,7 @@
 Comment utiliser ce module
 
 ---
+![system schema](public/jcskill.png)
 
 1.Tout d'abord, vous devez déclarer dans votre page HTML le bloc
   comme ça:
