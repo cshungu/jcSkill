@@ -27,12 +27,12 @@ Comment utiliser ce module
 ```
 
 Utilisation du Module Jc
+-----------------------
 
----
 >Les fonctions utilitaire du module.
+
 | Function                    | Description                |
 | --------------------------- | -------------------------- |
 | Jc.add()                    | Fonction addBloc           |
 | Jc.animate()                | Fonction animate           |
 | Jc.option(<Element option>) | Fonction de configurations |
-
