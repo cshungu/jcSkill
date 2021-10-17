@@ -6,10 +6,10 @@ Comment utiliser ce module
 ---
 ![alt text](public/jcskill.png)
 
-1.Tout d'abord, vous devez déclarer dans votre page HTML le bloc
+- 1.Tout d'abord, vous devez déclarer dans votre page HTML le bloc
   comme ça:
    `<div id="app"></div>`
-2. Deuxièmement, vous pouvez mettre votre code en javascript.
+- . Deuxièmement, vous pouvez mettre votre code en javascript.
    Regardez le code :
 
 ``` script
