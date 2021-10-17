@@ -4,7 +4,7 @@
 Comment utiliser ce module
 
 ---
-![public/jcskill.png](attachment:image.png)
+![jcSkill/public/jcskill.png](attachment:image.png)
 
 1.Tout d'abord, vous devez déclarer dans votre page HTML le bloc
   comme ça:
