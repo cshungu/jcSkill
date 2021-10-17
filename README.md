@@ -1,5 +1,5 @@
 
-# Jsskill version 1
+# JcSkill Version 1
 
 Comment utiliser ce module
 
