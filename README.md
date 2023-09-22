@@ -1,16 +1,16 @@
 
-# JcSkill Version 1
+### sgjs Version 1
 
-Comment utiliser ce module
+Look how to use this module
 
 ---
-![alt text](public/jcskill.png)
+![alt text](sgjs.png)
 
-- 1.Tout d'abord, vous devez déclarer dans votre page HTML le bloc
-  comme ça:
+- 1.First of all, you must declare in your HTML page the block
+ like that:
    `<div id="app"></div>`
-- . Deuxièmement, vous pouvez mettre votre code en javascript.
-   Regardez le code :
+- . Second, you can put your code in javascript.
+   Look at the code :
 
 ``` script
 (function(){
@@ -27,13 +27,17 @@ Comment utiliser ce module
 })();
 ```
 
-Utilisation du Module Jc
+Function uses
 -----------------------
 
->Les fonctions utilitaire du module.
+>The utility functions of the module.
 
 | Function                    | Description                |
 | --------------------------- | -------------------------- |
-| Jc.add()                    | Fonction addBloc           |
-| Jc.animate()                | Fonction animate           |
-| Jc.option(<Element option>) | Fonction de configurations |
+| Jc.add()                    | Function addBloc           |
+| Jc.animate()                | Function animate           |
+| Jc.option(<Element option>) | Function de configurations |
+
+```
+sgjs module:
+    - https://www.manzowa.com/sgjs
